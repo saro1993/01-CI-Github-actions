@@ -217,8 +217,7 @@ Ved å konfigurerere main som en beskyttet branch, og ved å bruke "status sjekk
 - Velg *main* Som branch
 - Velg ```require a pull request before merging```
 - Velg ````Require status check to pass before merging````
-- Velg ```Do not allow bypassing the above settings```
-- I søkefeltet skriv inn teksten *build* som skal la deg velge "GitHub Actions". 
+- Trykk "+Add checks"- I søkefeltet skriv inn teksten *build* som skal la deg velge "GitHub Actions". 
 
 * Nå kan vi ikke Merge en pull request inn i Main uten at status sjekken er i orden. Det betyr at vår Workflow har kjørt OK. 
 * Ingen i teamet kan nå "snike seg unna" denne sjekken ved å comitte kode rett på main branch, selv ikke admin
