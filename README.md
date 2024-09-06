@@ -239,7 +239,7 @@ git checkout -b will_break_4_sure
  git push --set-upstream origin will_break_4_sure
 ```
 
-- OBS! GitHub velger repository du lagde forken FRA som kilde når du lager en pull request første gang. Du må endre nedtrekksmenyen til ditt eget repo.
+- OBS! Default, så  vil GitHub velger repository du lagde forken FRA som kilde når du lager en pull request første gang. Det blir feil, fordi det ikke er ditt repository. Du må derfor endre dette i nedtrekksmenyen, til ditt eget repo.
 - Gå til ditt repo på GitHub.com og forsøk å lage en Pull request fra din branch ```will_break_4_sure``` til main. 
 - Sjekk at du ikke får lov til å gjøre en Merge fordi koden ikke kompilerer
 
